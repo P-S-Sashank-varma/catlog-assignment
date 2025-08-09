@@ -174,4 +174,40 @@ function main() {
 }
 
 
+
 main();
+
+
+
+output :
+
+
+S C:\Users\sasha\desktop> node test.js
+Problem on polynomials
+
+=== Test Case 1 ===
+n: 4, k: 3
+Decoded Points:
+Point 1: (1, 4)
+Point 2: (2, 7)
+Point 3: (3, 12)
+
+Secret (constant term c): 3
+
+=== Test Case 2 ===
+n: 10, k: 7
+Decoded Points:
+Point 1: (1, 995085094601491)
+Point 2: (2, 21394886326566393)
+Point 3: (3, 196563650089608567)
+Point 4: (4, 1016509518118225951)
+Point 5: (5, 3711974121218449851)
+Point 6: (6, 10788619898233492461)
+Point 7: (7, 26709394976508342463)
+
+Secret (constant term c): 79836264049851
+
+=== FINAL RESULTS ===
+Test Case 1 3
+Test Case 2  79836264049851
+ 
